@@ -5,60 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .contenedor {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;
-            height: 100vh;
-
-        }
-
-        .navbar {
-            background-color: green;
-            grid-column: 1 / 4;
-        }
-
-        .main-content {
-            background-color: yellow;
-            grid-column: 1 / 3;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-
-        .aside {
-            background-color: red;
-            grid-column: 3;
-        }
-
-        .footer {
-            background-color: blue;
-            grid-column: 1 / 4;
-        }
-
-        .seccion {
-            display: flex;
-            gap: 10px;
-        }
-
-        .seccion .textos {
-            height: 100%;
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-    </style>
+    <link rel="stylesheet" href="grid.css">
 </head>
 
 <body>
